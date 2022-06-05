@@ -70,13 +70,12 @@ class _HomeScreenState extends State<HomeScreen> {
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) =>
             [
               sliverAppBar(context,
-                  'gm ${(mainScreenBloc.state.user?.name?.firstWord() ?? 'ser')} :)'),
+                  'Posts'),
             ],
         body: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              gap24(v: true),
               Padding(
                 padding:
                     padding16().copyWith(bottom: LayoutConstants.dimen_64.h),
