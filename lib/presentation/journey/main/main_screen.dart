@@ -4,6 +4,7 @@ import 'package:profile/presentation/app/route_constants.dart';
 import 'package:profile/presentation/journey/common/app_scaffold.dart';
 import 'package:profile/presentation/journey/community/community_screen.dart';
 import 'package:profile/presentation/journey/home/home_screen.dart';
+import 'package:profile/presentation/journey/jobs/jobs_screen.dart';
 import 'package:profile/presentation/journey/main/bloc/main_screen_bloc.dart';
 import 'package:profile/presentation/journey/main/bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
@@ -87,7 +88,7 @@ class _MainScreenState extends State<MainScreen> {
 
   List<Widget> getPagesList(MainScreenBloc mainScreenBloc) => [
         HomeScreen(mainScreenBloc: mainScreenBloc),
-        Container(),
+        JobsScreen(mainScreenBloc: mainScreenBloc),
         MyProfileScreen(mainScreenBloc: mainScreenBloc),
       ];
 }

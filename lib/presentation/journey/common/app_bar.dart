@@ -34,7 +34,7 @@ AppBar commonAppBar(
   IconData? trailingIcon,
   VoidCallback? onTrailingPressed,
   double? elevation,
-      Color? backgroundColor,
+  Color? backgroundColor,
 }) =>
     AppBar(
       elevation: elevation ?? 0,
@@ -182,14 +182,16 @@ SliverAppBar sliverAppBar(
 
 SliverAppBar sliverAppBarWithImage(
   BuildContext context,
-  String imgUrl, {
+  String imgUrl,
+  String profilePic, {
   String? title,
   bool isCollapsed = true,
   String? heroTag,
+  double? height,
 }) =>
     SliverAppBar(
       centerTitle: false,
-      expandedHeight: LayoutConstants.dimen_172.h,
+      expandedHeight: LayoutConstants.dimen_120.h,
       floating: false,
       pinned: true,
       snap: false,
@@ -213,12 +215,31 @@ SliverAppBar sliverAppBarWithImage(
         centerTitle: false,
         title: isCollapsed ? subtitle1(context, title) : null,
         titlePadding: padding16().copyWith(left: LayoutConstants.dimen_44.w),
-        background: Hero(
-          tag: heroTag ?? imgUrl,
-          child: CachedNetworkImage(
-            imageUrl: imgUrl,
-            fit: BoxFit.cover,
-          ),
+        background: Stack(
+          children: [
+            Hero(
+              tag: heroTag ?? imgUrl,
+              child: CachedNetworkImage(
+                imageUrl: imgUrl,
+                fit: BoxFit.cover,
+                width: MediaQuery.of(context).size.width,
+                height: LayoutConstants.dimen_120.h,
+              ),
+            ),
+            Container(
+              height: LayoutConstants.dimen_156.h,
+              alignment: Alignment.bottomLeft,
+              margin: padding20(v: false),
+              child: CircleAvatar(
+                radius: LayoutConstants.dimen_40.r,
+                backgroundColor: Theme.of(context).backgroundColor,
+                child: CircleAvatar(
+                  backgroundImage: CachedNetworkImageProvider(profilePic),
+                  radius: LayoutConstants.dimen_36.r,
+                ),
+              ),
+            )
+          ],
         ),
       ),
     );

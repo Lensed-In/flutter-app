@@ -8,9 +8,6 @@ class RouteConstants {
   static const preferenceSelection1 = '/preference-selection1';
   static const preferenceSelection2 = '/preference-selection2';
 
-  static const courseDetail = '/course-detail';
-  static const chapter = 'chapter';
-  static const congratulate = 'congratulate';
   static const userProfile = 'user-profile';
 
   static const signUpSignIn = 'sign-up-sign-in';
@@ -20,5 +17,6 @@ class RouteConstants {
   static const ossLicense = 'oss-license';
 
   static const myHomePage = 'my-home-page';
+  static const jobDetail = 'job-detail';
 
 }

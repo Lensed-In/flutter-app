@@ -48,13 +48,17 @@ class _PostItemCardState extends State<PostItemCard> {
                 children: [
                   GestureDetector(
                     onTap: () => {
-                      Navigator.pushNamed(context, RouteConstants.userProfile, arguments: post['profile'])
+                      Navigator.pushNamed(
+                        context,
+                        RouteConstants.userProfile,
+                        arguments: post['profile'],
+                      )
                     },
                     child: Row(
                       children: [
                         CircleAvatar(
                           backgroundImage: CachedNetworkImageProvider(
-                            post['profile']['picture']['original']['url'],
+                            post['profile']?['picture']?['original']?['url'] ?? 'https://pbs.twimg.com/profile_images/1490782523701481474/DtyJ_8ej_400x400.jpg',
                           ),
                           radius: LayoutConstants.dimen_16.r,
                         ),

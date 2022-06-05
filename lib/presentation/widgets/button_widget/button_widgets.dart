@@ -105,7 +105,6 @@ buttonOutlinedWithIcon(
       style: OutlinedButton.styleFrom(
         shape: ButtonWidgetConstants.buttonShapeBorder,
         padding: padding ?? ButtonWidgetConstants.buttonOutlinedPadding,
-        backgroundColor: AppColor.primaryColor
       ),
       onPressed: onPress,
     );

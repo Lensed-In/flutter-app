@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:profile/common/constants/layout_constants.dart';
-import 'package:profile/common/extensions/string_extensions.dart';
 import 'package:profile/di/injector.dart';
 import 'package:profile/localization/languages.dart';
 import 'package:profile/presentation/journey/common/app_bar.dart';
@@ -23,7 +22,7 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMixin{
   late HomeScreenBloc _homeScreenBloc;
 
   Languages? lang;
@@ -31,11 +30,13 @@ class _HomeScreenState extends State<HomeScreen> {
   MainScreenBloc get mainScreenBloc => widget.mainScreenBloc;
 
   @override
+  bool get wantKeepAlive => true;
+
+  @override
   void initState() {
     super.initState();
     _homeScreenBloc = Injector.resolve<HomeScreenBloc>()
       ..add(FetchHomeScreenDataEvent());
-      // ..add(PostPublicationEvent());
   }
 
   @override

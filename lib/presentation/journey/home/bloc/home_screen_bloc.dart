@@ -1,4 +1,3 @@
-
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:profile/common/util/app_utils.dart';
@@ -21,6 +20,7 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
     required this.homeScreenUseCase,
   }) : super(HomeScreenInitial()) {
     on<FetchHomeScreenDataEvent>(_processFetchHomeScreenDataEvent);
+    on<FetchJobsEvent>(_processFetchJobsEvent);
     on<PostPublicationEvent>(_processLensLoginEvent);
   }
 
@@ -32,8 +32,7 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
       loaderBloc.add(ShowLoaderEvent());
 
       dynamic response = await homeScreenUseCase.fetchFeedData('');
-      emit(
-          FetchHomeScreenDataSuccessState(state, publications: response));
+      emit(FetchHomeScreenDataSuccessState(state, publications: response));
     } catch (e, stacktrace) {
       handleApiError(e, stacktrace);
       emit(FetchHomeScreenDataFailedState(state));
@@ -41,10 +40,26 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
     loaderBloc.add(DismissLoaderEvent());
   }
 
+  void _processFetchJobsEvent(
+    FetchJobsEvent event,
+    Emitter<HomeScreenState> emit,
+  ) async {
+    try {
+      loaderBloc.add(ShowLoaderEvent());
+
+      dynamic response = await homeScreenUseCase.fetchJobs();
+      emit(FetchJobsSuccessState(state, jobs: response));
+    } catch (e, stacktrace) {
+      handleApiError(e, stacktrace);
+      emit(FetchJobsFailedState(state));
+    }
+    loaderBloc.add(DismissLoaderEvent());
+  }
+
   void _processPostPublicationEvent(
-      PostPublicationEvent event,
-      Emitter<HomeScreenState> emit,
-      ) async {
+    PostPublicationEvent event,
+    Emitter<HomeScreenState> emit,
+  ) async {
     try {
       loaderBloc.add(ShowLoaderEvent());
 
@@ -69,11 +84,11 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
         },
       }''';
 
-      dynamic response = await homeScreenUseCase.postPublications(createPostRequest);
+      dynamic response =
+          await homeScreenUseCase.postPublications(createPostRequest);
       print('_processPostPublicationEvent');
       print(response);
-      emit(
-          FetchHomeScreenDataSuccessState(state, publications: response));
+      emit(FetchHomeScreenDataSuccessState(state, publications: response));
     } catch (e, stacktrace) {
       handleApiError(e, stacktrace);
       emit(FetchHomeScreenDataFailedState(state));
@@ -82,26 +97,24 @@ class HomeScreenBloc extends Bloc<HomeScreenEvent, HomeScreenState> {
   }
 
   void _processLensLoginEvent(
-      PostPublicationEvent event,
-      Emitter<HomeScreenState> emit,
-      ) async {
+    PostPublicationEvent event,
+    Emitter<HomeScreenState> emit,
+  ) async {
     try {
       loaderBloc.add(ShowLoaderEvent());
 
-      String address = '0xdA86780f3902EbE7A92204D939CF1e03009ecf18';
-      String signature = 'Sign this message';
+      String address = "0xdA86780f3902EbE7A92204D939CF1e03009ecf18";
+      String signature1 = "Sign this message";
 
-
-      final loginRequest = '''{
-        address: $address,
-        signature: $signature,
-      }''';
+      final loginRequest = {
+        "address": "0xdA86780f3902EbE7A92204D939CF1e03009ecf18",
+        "signature": "Sign this message"
+      };
 
       dynamic response = await homeScreenUseCase.lensLogin(loginRequest);
       print('_processLensLoginEvent');
       print(response);
-      emit(
-          FetchHomeScreenDataSuccessState(state, publications: response));
+      emit(FetchHomeScreenDataSuccessState(state, publications: response));
     } catch (e, stacktrace) {
       handleApiError(e, stacktrace);
       emit(FetchHomeScreenDataFailedState(state));
