@@ -1,0 +1,53 @@
+{
+  "title": "Blockchain Basics",
+  "cover": "https://i.ibb.co/G2D6pRF/blochain-cover-1.png",
+  "readTime": "4 min",
+  "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+  "totalUserEnrolled": 3200,
+  "totalChapters": 10,
+  "totalQuiz": 10,
+  "topEnrolledUsersPic": [
+    "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+    "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+    "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+  ],
+  "creator": {
+    "userId": "fmekjnjfrn",
+    "name": "Nilesh Rathore",
+    "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+  },
+  "chapters": [
+    {
+      "type": "chapter",
+      "title": "Fungibility",
+      "description": "Fungibility basically points out to the right for exchanging a product or asset with other products or assets of the same kind. Fungibility ensures the implications towards the equal value of assets. The concept is helpful for simplifying trade and exchange processes. Fungibility is evident in cases where two objects or assets are similar to each other in design, and each unit of them could be exchanged for one another."
+    },
+    {
+      "type": "quiz",
+      "question": "How many basic steps are there in the scientific method?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Asset",
+      "description": "Asset refers to any resource which has an economic value associated with it. It is also under the ownership and regulation of an individual, enterprise, or country with the intention of offering a profit in the future. Assets can be perceived as anything that could generate cash flow in the long term, alongside reducing costs or boosting profits. Assets are classified into different categories according to their economic nature and work."
+    },
+    {
+      "type": "quiz",
+      "question": "How many basic steps are there in the scientific method?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    }
+  ]
+}

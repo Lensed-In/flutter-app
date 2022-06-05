@@ -1,0 +1,166 @@
+{
+  "totalChapters": 27,
+  "totalQuiz": 27,
+  "data": [
+    {
+      "type": "chapter",
+      "title": "Fungibility",
+      "description": "The capacity to trade a product or asset for other products or assets of the same sort is referred to as fungibility. Fungibility ensures that all assets have the same value. The notion helps to streamline trade and exchange procedures. When two objects or assets have similar designs and each unit might be swapped for the other, this is known as fungibility."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Asset",
+      "description": "Asset refers to any resource which has an economic value associated with it. It is also under the ownership and regulation of an individual, enterprise, or country with the intention of offering a profit in the future. Assets can be perceived as anything that could generate cash flow in the long term, alongside reducing costs or boosting profits. Assets are classified into different categories according to their economic nature and work."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Non-fungible token",
+      "description": "Non-fungible token (NFT) refers to a particular variant of cryptographic token which serves as a representative of a unique asset. NFTs are generally the tokenized representations of digital, as well as real-world, assets. They can also work perfectly as verifiable proofs for the authenticity of assets such as digital art and collectibles. NFTs also provide a clear trail of ownership of assets throughout their lifetime with a lack of interchangeability."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Smart Contract",
+      "description": "Blockchain is a constantly expanding database, including various transaction blocks. In the case of NFTs, blockchain is the foundation for building the NFT platform. Some of the reliable platforms that support NFTs are decentralized applications or dApps. So, the platforms tailored initially as centralized platforms could counter the basic objective of blockchain in various ways alongside imposing the influence of centralized party controls. Blockchain introduces decentralization and data integrity benefits."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "ERC-721: NFT Standard",
+      "description": "Another category of tokens, ERC-721 tokens, are distinct from ERC-20 tokens owing to their non-fungibility. Each ERC-721 token is unique and does not have an interchangeable value. One of the most significant decentralized applications on Ethereum, Cryptokitties, depends on ERC-721 tokens for enabling the creation of digital collectibles in the form of different kitten breeds. Blockchain-based NFTs could thus apply for virtual collectibles, physical property, and negative value assets like loans."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "ERC-1155: Multi-Token Standard",
+      "description": "The ERC-721 standard is a clear choice for tokenization and the creation of unique assets which are easily transferable from one wallet to the other. On the other hand, a collection of ERC-721 tokens could reduce speed and efficiency. ERC-1155 resolves the problem by offering unique NFTs that can enable batch transfers of multiple tokens simultaneously. ERC-1155 is generally referred to as the next-generation multi-token standard with better speed than ERC-721."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Transferability",
+      "description": "An exchange basically refers to the organized marketplace which serves as the base for trading financial instruments, including cryptocurrencies, securities, and commodities. Exchanges can operate in real-world establishments or even on digital platforms. In the case of digital assets, exchanges serve platforms for users to trade different assets alongside purchasing or selling their cryptocurrency for fiat money. The majority of cryptocurrency exchanges feature centralized control with potentially risky cyber threats."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Tokenization",
+      "description": "The Decentralized Exchange concept emerged as a potential alternative for centralized exchanges. DEX platforms don’t require any middleman, and it is easy to conduct trade alongside processing transactions in a trustless automated environment. Decentralized exchanges have limited susceptibility to cyber-attacks and downtime. However, they cannot offer the services of fiat or crypto trading. The trading volume of decentralized exchanges generally tends to be lower in such exchanges than in centralized exchanges."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Scarcity",
+      "description": "Conventional digital assets, including event tickets and domain names, did not have any unified representation in the digital world. Representation of non-fungible tokens on public blockchains helps developers in creating common, inheritable, and reusable standards applicable for all non-fungible tokens. The standards focus primarily on ownership, simple access control, and transfer. Blockchains help in adding a layer on top of standards for building a completely new collection of stateful primitives."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Royalties",
+      "description": "Interoperability is one of the significant traits of non-fungible tokens. NFT standards enable NFTs easier movement throughout various ecosystems. When developers introduce a new NFT project, the NFTs are instantly viewable across various wallet providers. They could also be traded on different marketplaces and displayed in virtual worlds. Interoperability is possible due to the open standards for facilitating clear, reliable, permissioned, and consistent API for reading and writing data."
+    },
+    {
+      "type": "quiz",
+      "question": "What do you understand by Fungibility?",
+      "answer": "Option 1",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    }
+  ]
+}

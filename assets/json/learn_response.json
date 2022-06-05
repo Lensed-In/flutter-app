@@ -1,0 +1,220 @@
+{
+  "data": [
+    {
+      "title": "Blockchain Basics",
+      "cover": "https://i.ibb.co/G2D6pRF/blochain-cover-1.png",
+      "readTime": "4 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 3200,
+      "totalChapters": 10,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Nilesh Rathore",
+        "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+      }
+    },
+    {
+      "title": "Wallet Basics",
+      "cover": "https://i.ibb.co/synLRbr/wallet-cover-1.png",
+      "readTime": "7 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 200,
+      "totalChapters": 15,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Rohit Kumar",
+        "profilePic": "https://pbs.twimg.com/profile_images/1448358863590199299/prl0dOG6_400x400.jpg"
+      }
+    },
+    {
+      "title": "NFT Basics",
+      "cover": "https://i.ibb.co/dbZzFLc/nft-cover-4.png",
+      "readTime": "5 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 46882,
+      "totalChapters": 20,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Nilesh Rathore",
+        "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+      }
+    },
+    {
+      "title": "Intro to Web3",
+      "cover": "https://i.ibb.co/9gBxNzx/web3-cover-2.png",
+      "readTime": "3 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 45678,
+      "totalChapters": 5,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Rohit Kumar",
+        "profilePic": "https://pbs.twimg.com/profile_images/1448358863590199299/prl0dOG6_400x400.jpg"
+      }
+    },
+    {
+      "title": "Blockchain Basics",
+      "cover": "https://i.ibb.co/G2D6pRF/blochain-cover-1.png",
+      "readTime": "4 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 3200,
+      "totalChapters": 10,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Nilesh Rathore",
+        "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+      }
+    },
+    {
+      "title": "Wallet Basics",
+      "cover": "https://i.ibb.co/synLRbr/wallet-cover-1.png",
+      "readTime": "7 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 200,
+      "totalChapters": 15,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Rohit Kumar",
+        "profilePic": "https://pbs.twimg.com/profile_images/1448358863590199299/prl0dOG6_400x400.jpg"
+      }
+    },
+    {
+      "title": "NFT Basics",
+      "cover": "https://i.ibb.co/dbZzFLc/nft-cover-4.png",
+      "readTime": "5 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 46882,
+      "totalChapters": 20,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Nilesh Rathore",
+        "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+      }
+    },
+    {
+      "title": "Intro to Web3",
+      "cover": "https://i.ibb.co/9gBxNzx/web3-cover-2.png",
+      "readTime": "3 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 45678,
+      "totalChapters": 5,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Rohit Kumar",
+        "profilePic": "https://pbs.twimg.com/profile_images/1448358863590199299/prl0dOG6_400x400.jpg"
+      }
+    },
+    {
+      "title": "Blockchain Basics",
+      "cover": "https://i.ibb.co/G2D6pRF/blochain-cover-1.png",
+      "readTime": "4 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 3200,
+      "totalChapters": 10,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Nilesh Rathore",
+        "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+      }
+    },
+    {
+      "title": "Wallet Basics",
+      "cover": "https://i.ibb.co/synLRbr/wallet-cover-1.png",
+      "readTime": "7 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 200,
+      "totalChapters": 15,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Rohit Kumar",
+        "profilePic": "https://pbs.twimg.com/profile_images/1448358863590199299/prl0dOG6_400x400.jpg"
+      }
+    },
+    {
+      "title": "NFT Basics",
+      "cover": "https://i.ibb.co/dbZzFLc/nft-cover-4.png",
+      "readTime": "5 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 46882,
+      "totalChapters": 20,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Nilesh Rathore",
+        "profilePic": "https://nileshrathore.com/assets/images/profile.jpg"
+      }
+    },
+    {
+      "title": "Intro to Web3",
+      "cover": "https://i.ibb.co/9gBxNzx/web3-cover-2.png",
+      "readTime": "3 min",
+      "description": "Get familiar with the basic and advanced Non-Fungible Token (NFT) terms with the NFT flashcards, and level up your blockchain skills.",
+      "totalUserEnrolled": 45678,
+      "totalChapters": 5,
+      "totalQuiz": 10,
+      "topEnrolledUsersPic": [
+        "https://pbs.twimg.com/profile_images/1374124971681705988/LXAjHNI7_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1510703458386468871/NaSbi2BY_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1504424634250321922/KaldzEfO_400x400.png"
+      ],
+      "creator": {
+        "name": "Rohit Kumar",
+        "profilePic": "https://pbs.twimg.com/profile_images/1448358863590199299/prl0dOG6_400x400.jpg"
+      }
+    }
+  ]
+}

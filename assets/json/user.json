@@ -1,0 +1,41 @@
+{
+  "data": {
+    "name": "Nilesh Rathore",
+    "username": "nilesh",
+    "profilePic": "https://nileshrathore.com/assets/images/profile.jpg",
+    "bio": "Building @ORB_club: Your portal to Web3 world | Former Co-founder @Blink_dating & @Dwellfood (100K+ meals served) | Creator @Resume_X(70K+ downloads)",
+    "location": "San Fransisco, CA, US",
+    "titles": [
+      "Builder / Hacker",
+      "Founder",
+      "Designer"
+    ],
+    "socialHandles": [
+      {
+        "type": "twitter",
+        "label": "@nileshrathoree",
+        "url": "https://twitter.com/nileshrathoree"
+      },
+      {
+        "type": "linkedin",
+        "label": "@nileshrathore",
+        "url": "https://linkedin.com/in/nileshrathore"
+      },
+      {
+        "type": "stackoverflow",
+        "label": "@nilesh",
+        "url": "https://stackoverflow.com/users/5508673/nilesh-rathore"
+      },
+      {
+        "type": "github",
+        "label": "@nileshrathore",
+        "url": "https://github.com/nileshrathore"
+      },
+      {
+        "type": "website",
+        "label": "@nilesh",
+        "url": "https://nileshrathore.com/"
+      }
+    ]
+  }
+}
