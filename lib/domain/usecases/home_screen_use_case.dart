@@ -15,9 +15,12 @@ class HomeScreenUseCase {
   Future<dynamic> fetchFeedData(String userId) async =>
       homeScreenRepository.fetchFeedData(userId);
 
+  Future<dynamic> fetchJobs() async =>
+      homeScreenRepository.fetchJobs();
+
   Future<dynamic> postPublications(String request) async =>
       homeScreenRepository.postPublications(request);
 
-  Future<dynamic> lensLogin(String request) async =>
+  Future<dynamic> lensLogin(dynamic request) async =>
       homeScreenRepository.lensLogin(request);
 }

@@ -1,8 +1,8 @@
 const explorePublications = '''
 query {
   explorePublications(request: {
-  sortCriteria: LATEST,
-  publicationTypes: [POST, COMMENT, MIRROR],
+  sortCriteria: TOP_COMMENTED,
+  publicationTypes: [POST],
   limit: 50
   }) {
     items {

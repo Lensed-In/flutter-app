@@ -33,13 +33,19 @@ class HomeScreenRepositoryImpl implements HomeScreenRepository {
   }
 
   @override
+  Future<dynamic> fetchJobs() async {
+    final response = homeScreenRemoteDataSource.fetchJobs();
+    return response;
+  }
+
+  @override
   Future<dynamic> postPublications(String request) async {
     final response = homeScreenRemoteDataSource.postPublications(request);
     return response;
   }
 
   @override
-  Future<dynamic> lensLogin(String request) async {
+  Future<dynamic> lensLogin(dynamic request) async {
     final response = homeScreenRemoteDataSource.lensLogin(request);
     return response;
   }

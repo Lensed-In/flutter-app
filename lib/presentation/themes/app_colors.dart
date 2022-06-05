@@ -35,8 +35,8 @@ abstract class AppColor {
   static const Color faqDetailsTextColor = Color(0xFFA5A6B2);
 
   // Application Colors
-  static const Color primaryColor = Color(0xFF8157FC);
-  static const Color primaryColorDark = Color(0xFF320f9b);
+  static const Color primaryColor = Color(0xFFF76836);
+  static const Color primaryColorDark = Color(0xFFf4511a);
 
   static const Color secondaryColor = flatBlack;
 

@@ -24,6 +24,12 @@ class HomeScreenRemoteDataSource {
     return response.data;
   }
 
+  Future<dynamic> fetchJobs() async {
+    final response = await appGraphQLClient.query(QueryOptions(document: gql(GET_PUBLICATIONS)));
+    print(response.data);
+    return response.data;
+  }
+
   Future<dynamic> postPublications(String request) async {
     final response = await appGraphQLClient.mutate(MutationOptions(document: gql(createPostTypedData(request))));
     
@@ -32,7 +38,7 @@ class HomeScreenRemoteDataSource {
     return response.data;
   }
 
-  Future<dynamic> lensLogin(String request) async {
+  Future<dynamic> lensLogin(dynamic request) async {
     final response = await appGraphQLClient.mutate(MutationOptions(document: gql(authentication(request))));
 
     print(response);

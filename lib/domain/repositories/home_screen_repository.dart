@@ -7,7 +7,9 @@ abstract class HomeScreenRepository {
 
   Future<dynamic> fetchFeedData(String userId);
 
+  Future<dynamic> fetchJobs();
+
   Future<dynamic> postPublications(String request);
 
-  Future<dynamic> lensLogin(String request);
+  Future<dynamic> lensLogin(dynamic request);
 }

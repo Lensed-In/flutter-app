@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) => Scaffold(
           body: Container(
         alignment: Alignment.center,
-        color: AppColor.black,
+        color: AppColor.primaryColor,
         child: _splashImage(),
       ));
 
@@ -59,7 +59,7 @@ class _SplashScreenState extends State<SplashScreen> {
       );
 
   Image _splashImage() => Image.asset(
-        PngConstants.orbLogo,
+        PngConstants.launcher,
         width: LayoutConstants.dimen_200.r,
         height: LayoutConstants.dimen_200.r,
       );
